@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+html{
+    overflow-x: hidden;
+}
+.navbar-brand {
+    font-size: 2rem;
+    color:#fff;
+}
+#nombre{
+    margin-left: 8rem;
+}
+
+.nav-link{
+    margin-right: 10px;
+    margin-left: 18px;
+    color:white;
+}
+.main1{
+    background-image:url(images/1.png);
+    background-size: cover;
+    background-color: #003c5a;
+    background-position: 50% 50%;
+    height:100vh;
+    width:100%;
+}
+.main1 h1{
+    font-size:3rem;
+    font-weight: 150;
+    color:white;
+}
+.main1 p{
+    font-size: 0.6rem;
+    color:white;
+    font-weight: 50;
+}
+.btn1{
+    background:#ff8c49;
+    outline: none;
+    border:none;
+    width:18%;
+    height:18%;
+    color:#fff;
+    border-radius: 20px;
+}
+.btn1:hover{
+    background: #f08237;
+}
+.main2{
+    background-color:  #edf4f8;
+}
+.main2 h1{
+    color:gray;
+}
+.main2 h2{
+    color:gray;
+    font-weight: 400;
+}
+.main2 p{
+    color:gray;
+}
+.main2 .btn2{
+    background:orange;
+    outline: none;
+    border:none;
+    width:30%;
+    height:12%;
+    color:#fff;
+    border-radius: 20px;    
+}
+
+i.fas {
+	color:#ff8c49;
+	font-size: 50px;
+}
+
+.main3 h5{
+    font-size: 2rem;
+}
+.main4 {
+    background-color: #edf4f8;
+}
+.main4 h1{
+    font-size:2rem;
+}
+.main4 h2{
+    font-size:1.2rem;
+    color:gray;
+}
+.main4 p{
+    font-size: 0.8rem;
+    color:gray;
+}
+.main5{
+    background-color: #003c5a;
+}
+.main5 .d-flex{
+    margin-left: 18%;
+}
+.main5 .d-flex input{
+    width:28%;
+    border-radius: 20px;
+    height:40px;
+}
+.main5 .btn0{
+    width:25%;
+    height:40px ;
+    border-radius: 20px;
+    margin-left: 1rem;
+    background:#e76e33;
+    outline: none;
+    border:none;
+    color:#fff;
+}
+.main5 h1{
+    color:#fff;
+}
+.main5 p{
+    color:#fff;
+}
+.main6 .carousel-indicators button{
+    border-radius: 50%;
+    height:15px;
+    width:15px;
+}
+
+.main7{
+    background-color: #333;
+}
+.main7 a{
+    margin-left:24px;
+    text-decoration: none;
+    color:#fff;
+}
+.main7 .fab{
+    margin-left: 18px;
+
+}
+
+.spec {
+    font-family: 'Merriweather', serif;
+}
+
+#bottom {
+    margin-left: 15%;
+}
+
+.foot-li .foot-a {
+    display: inline;
+    color: gray;
+}
+.foot-li .foot-a:hover{
+    color:#fff;
+}
+
+.active {
+    color: white;
+}
+
+.res:hover {
+    color: #e76e33;
+}
+
+@media screen (max-width:768px) {
+    .btn1 {
+        display: block;
+        width: 50%;
+    }
+    
+    .foot-li .foot-a {
+        display: block;
+    }
+    
+    #bottom {
+        margin-left: 5%;
+    }
+}
